@@ -1,0 +1,20 @@
+﻿{
+    "X260": {
+        "TransactionId_0000000003": "20201104",
+        "CurrentDrivers": {
+            "DriverId_00001": {
+                "FileName": "A.exe",
+                "FileSize": "50MB"
+            }
+        },
+        "PreviousDrivers": {
+            "TransactionId_00000000001": {
+                "DriverId": "0000005"
+            }
+        }
+    },
+    "X270": {
+        "TransactionId_0000000002": "20201221",
+        "PreviousDrivers": ""
+    }
+}

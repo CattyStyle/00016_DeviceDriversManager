@@ -1,0 +1,15 @@
+Invoke-WebRequest -Uri "https://pcsupport.lenovo.com/jp/ja/api/v4/downloads/drivers?productId=laptops-and-netbooks%2Fthinkpad-l-series-laptops%2Fthinkpad-l490-type-20q5-20q6" -Headers @{
+    "method"           = "GET"
+    "authority"        = "pcsupport.lenovo.com"
+    "scheme"           = "https"
+    "path"             = "/jp/ja/api/v4/downloads/drivers?productId=laptops-and-netbooks%2Fthinkpad-l-series-laptops%2Fthinkpad-l490-type-20q5-20q6"
+    "accept"           = "application/json, text/plain, */*"
+    "x-requested-with" = "XMLHttpRequest"
+    "sec-fetch-site"   = "same-origin"
+    "sec-fetch-mode"   = "cors"
+    "sec-fetch-dest"   = "empty"
+    "referer"          = "https://pcsupport.lenovo.com/jp/ja/products/laptops-and-netbooks/thinkpad-l-series-laptops/thinkpad-l490-type-20q5-20q6/downloads/driver-list"
+    "accept-encoding"  = "gzip, deflate, br"
+    "accept-language"  = "ja,en-US;q=0.9,en;q=0.8"
+    "if-none-match"    = "W/`"1bda5-OGTHo96cRqAPwGKWEgStP9nWm2E`""
+}
